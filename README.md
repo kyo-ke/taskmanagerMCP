@@ -1,6 +1,8 @@
 # taskmanagerMCP
 
 An MCP server for the `taskmanager` app, built with [`mark3labs/mcp-go`](https://github.com/mark3labs/mcp-go).
+currently there is go-sdk: https://github.com/modelcontextprotocol/go-sdk
+
 
 This server exposes tools that call the `taskmanager` HTTP API.
 
