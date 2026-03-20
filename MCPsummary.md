@@ -1,5 +1,5 @@
 # What is MCP in one line
-MCP (Model Context Protocol) is an open-source standard for connecting AI applications to external systems
+MCP (Model Context Protocol) is an **open-source standard for connecting AI applications to external systems**
 
 # What is standardized by MCP
 MCP has two layer data, transport.
