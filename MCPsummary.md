@@ -2,21 +2,24 @@
 MCP (Model Context Protocol) is an **open-source standard for connecting AI applications to external systems**
 
 # What is standardized by MCP
-MCP has two layer data, transport.
+What MCP standardized can be split into two layer Data Layer, Transport Layer
 
 ## Data Layer
 The data layer implements a JSON-RPC 2.0 based exchange protocol that defines the message structure and semantics
 
-Server Feature
-Client Feature
-Utility Feature
-Lifecycle Management
+- Server Feature
+- Client Feature
+- Utility Feature
+- Lifecycle Management
 
 ## Transport Layer
-The transport layer manages communication channels and authentication between clients and servers. 
+The transport layer manages communication channels. There is two options for transport layer 
+- Stdio
+- Streamable HTTP transport
+Transport layer documentation: https://modelcontextprotocol.io/specification/2025-11-25/basic/transports. 
+This layer also standardize authc/z between MCP clients and servers
+Authorization documentation: https://modelcontextprotocol.io/specification/2025-11-25/basic/authorization
 
-Stdio
-Streamable HTTP transport
 
 # DataLayer Protocol
 This defines three thing
