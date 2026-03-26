@@ -1,11 +1,11 @@
 ---
-marp: false
+marp: true
 theme: default
 paginate: true
-header: "MCP Overview"
+header: "MCP Introduction"
 footer: "Knowledge sharing session for MCP in Tokyo office / March 27, 2026 / Kyosuke Kariya"
 ---
-# MCP Overview
+# MCP Introduction
 
 
 ---
@@ -119,3 +119,31 @@ MCP Frameworks handle the heavy lifting:
 **Developers can focus on:**
 1.  Defining **Server Primitives** (Tools, Resources, Prompts).
 2.  Leveraging **Client Primitives** in their implementations.
+
+---
+
+# MCP example 
+
+repo: https://github.com/kyo-ke/taskmanagerMCP
+
+
+
+---
+
+# How to use from vscode (registration)
+
+<img src="./vscodemcp.jpg" width="800">
+
+---
+
+# How to use from vscode (execution)
+
+### tools explicit execution
+<img src="./vscodeprompt.png" width="400">
+
+<br>
+
+### prompt execution
+<img src="./vscodetools.png" width="400">
+
+---

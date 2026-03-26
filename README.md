@@ -4,7 +4,8 @@ An MCP server for the `taskmanager` app, built with [`mark3labs/mcp-go`](https:/
 currently there is go-sdk: https://github.com/modelcontextprotocol/go-sdk
 
 
-This server exposes tools that call the `taskmanager` HTTP API.
+This server exposes tools that call the `taskmanager` HTTP API.  
+repo: https://github.com/kyo-ke/CleanArch.taskmanager
 
 ## Tools
 

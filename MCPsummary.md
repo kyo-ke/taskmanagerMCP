@@ -23,7 +23,7 @@ Authorization documentation: https://modelcontextprotocol.io/specification/2025-
 
 # DataLayer Protocol
 This defines three thing
-- Primitive
+- Primitive (Server and Client feature) 
 - Lifecycle
 - Notification
 
