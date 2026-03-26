@@ -71,7 +71,7 @@ The data layer implements a JSON-RPC 2.0 based exchange protocol that defines th
 ---
 
 
-# 2. Data Layer Primitives(Server)
+# 2. Data Layer: Primitives(Server)
 
 Defining protocol for what servers can offer.
 
@@ -81,7 +81,7 @@ Defining protocol for what servers can offer.
 
 ---
 
-# 2. Data Layer Primitives(Client)
+# 2. Data Layer: Primitives(Client)
 
 Defining protocol for what client can offer
 
@@ -92,7 +92,7 @@ Defining protocol for what client can offer
 
 ---
 
-# 2. Data Layer Lifecycle
+# 2. Data Layer: Lifecycle
 
 - MCP is a stateful protocol Since server/client should know which capability is supported.
 - Lifecycle defines protocol for how to share each server's feature
@@ -100,7 +100,7 @@ Defining protocol for what client can offer
 ---
 
 
-# 2. Data Layer Notification
+# 2. Data Layer: Notification
   
 <br>
 <br>
@@ -124,15 +124,22 @@ MCP Frameworks handle the heavy lifting:
 
 # MCP example 
 
-repo: https://github.com/kyo-ke/taskmanagerMCP
+### taskmanagerMCP
+
+An MCP server for the `taskmanager` app, built with [`mark3labs/mcp-go`](https://github.com/mark3labs/mcp-go).
+currently there is go-sdk: https://github.com/modelcontextprotocol/go-sdk
 
 
+This server exposes tools that call the `taskmanager` HTTP API.  
+taskmanager repo: https://github.com/kyo-ke/CleanArch.taskmanager
+
+MCP repo: https://github.com/kyo-ke/taskmanagerMCP
 
 ---
 
 # How to use from vscode (registration)
 
-<img src="./vscodemcp.jpg" width="800">
+<img src="./vscodemcp.jpg" width="700">
 
 ---
 
@@ -147,3 +154,5 @@ repo: https://github.com/kyo-ke/taskmanagerMCP
 <img src="./vscodetools.png" width="400">
 
 ---
+
+# Thsnk you!
