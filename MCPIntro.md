@@ -15,7 +15,7 @@ footer: "Knowledge sharing session for MCP in Tokyo office / March 27, 2026 / Ky
 <br>
 <br>
 
-Need to Share **Context** with LLM **ModeL** to get better output
+Need to Share **Context** with LLM **ModeL** to get better output or interact with external system
 
 ---
 
@@ -29,7 +29,22 @@ Need to Share **Context** with LLM **ModeL** to get better output
 ---
 # MCP Architecture
 
-<img src="./MCPArchitecture.drawio.svg" width="800">
+<img src="./MCPArchitecture.drawio.svg" width="600">
+
+---
+
+# Role for MCP Server and Client
+
+### AI Application
+Connected to LLM endpoint and manage interaction with user.  
+e.g: vscode, claude, intellij
+
+### MCP Server
+Build / Execute request to External Server.  
+interface for external application.
+
+### MCP Client
+Managed by host application. Manage connection with MCP server
 
 ---
 
